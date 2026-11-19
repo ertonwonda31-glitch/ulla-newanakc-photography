@@ -2,145 +2,271 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ULLA NEWANAKC | Photography</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal Berita KOMPUJA - Komunitas Mahasiswa Puncak Jaya se-Sumatra">
+  <title>Portal Berita KOMPUJA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <h2>ULLA <span>NEWANAKC</span></h2>
-  <nav>
-    <a href="#home">Beranda</a>
-    <a href="#about">Tentang</a>
-    <a href="#gallery">Galeri</a>
-    <a href="#services">Layanan</a>
-    <a href="#contact">Kontak</a>
-    <a href="admin.html">Admin</a>
-  </nav>
+<header class="header">
+  <div class="topbar">
+    <span>PORTAL INFORMASI MAHASISWA PUNCAK JAYA</span>
+    <span id="tanggal"></span>
+  </div>
+  <div class="container nav-wrap">
+    <a class="brand" href="#beranda">
+      <div class="logo">K</div>
+      <div>
+        <strong>KOMPUJA</strong>
+        <small>MEDIA INFORMASI MAHASISWA</small>
+      </div>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+    <nav id="navMenu">
+      <a href="#beranda">Beranda</a>
+      <a href="#profil">Profil</a>
+      <a href="#berita">Berita</a>
+      <a href="#aspirasi">Aspirasi</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+      <button class="admin-nav" id="openLogin">Admin</button>
+    </nav>
+  </div>
 </header>
 
-<section class="hero" id="home">
-  <div>
-    <p>PHOTOGRAPHY STUDIO</p>
-    <h1>Mengabadikan<br>Setiap Cerita</h1>
-    <p>Fotografi profesional untuk setiap momen berharga.</p>
-    <a href="#gallery" class="btn">Lihat Galeri</a>
+<div class="ticker">
+  <strong>INFO KOMPUJA</strong>
+  <div>Media informasi, pendidikan, persatuan, dan perkembangan mahasiswa Puncak Jaya se-Sumatra.</div>
+</div>
+
+<main>
+  <section class="hero" id="beranda">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="eyebrow">BERSATU • BERKARYA • BERINTEGRITAS</span>
+      <h1>Suara Mahasiswa,<br><span>Masa Depan Puncak Jaya</span></h1>
+      <p>Portal informasi KOMPUJA sebagai ruang publikasi kegiatan, gagasan, berita, dan aspirasi mahasiswa Puncak Jaya se-Sumatra.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#berita">Baca Berita</a>
+        <a class="btn outline" href="#profil">Tentang KOMPUJA</a>
+      </div>
+    </div>
+    <div class="hero-bottom">
+      <span>MEDIA INFORMASI DIGITAL KOMPUJA</span>
+      <span>01 / 2026</span>
+    </div>
+  </section>
+
+  <section class="container quick-info">
+    <div><span class="quick-icon">✦</span><div><strong>Informasi</strong><small>Berita dan pengumuman</small></div></div>
+    <div><span class="quick-icon">◎</span><div><strong>Pendidikan</strong><small>Wawasan dan pengetahuan</small></div></div>
+    <div><span class="quick-icon">◇</span><div><strong>Persatuan</strong><small>Solidaritas mahasiswa</small></div></div>
+    <div><span class="quick-icon">↗</span><div><strong>Aspirasi</strong><small>Suara mahasiswa</small></div></div>
+  </section>
+
+  <section class="section container" id="profil">
+    <div class="section-heading">
+      <div><span class="eyebrow">TENTANG ORGANISASI</span><h2>Mengenal KOMPUJA</h2></div>
+      <span class="section-number">01 — PROFIL</span>
+    </div>
+    <div class="profile-grid">
+      <div class="profile-visual">
+        <div class="profile-symbol">K</div>
+        <h3>KOMPUJA</h3>
+        <p>Komunitas Mahasiswa Puncak Jaya se-Sumatra</p>
+      </div>
+      <div class="profile-copy">
+        <h3>Ruang persaudaraan dan pengembangan mahasiswa</h3>
+        <p>KOMPUJA merupakan wadah kebersamaan mahasiswa asal Kabupaten Puncak Jaya yang berada di berbagai kota studi di Pulau Sumatra. Portal ini disiapkan sebagai media informasi, dokumentasi, komunikasi, dan publikasi kegiatan organisasi.</p>
+        <p>Melalui semangat persatuan, pendidikan, dan tanggung jawab, mahasiswa diharapkan dapat saling mendukung dalam menempuh pendidikan serta berkontribusi bagi masyarakat.</p>
+        <div class="profile-facts">
+          <div><strong>Nama</strong><span>KOMPUJA</span></div>
+          <div><strong>Kepanjangan</strong><span>Komunitas Mahasiswa Puncak Jaya se-Sumatra</span></div>
+          <div><strong>Wilayah</strong><span>Pulau Sumatra</span></div>
+          <div><strong>Basis informasi</strong><span>Media digital organisasi</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark-section">
+    <div class="container">
+      <div class="section-heading light">
+        <div><span class="eyebrow">ARAH ORGANISASI</span><h2>Visi dan Misi</h2></div>
+        <span class="section-number">02 — TUJUAN</span>
+      </div>
+      <div class="vision-grid">
+        <article class="vision-card">
+          <span class="card-index">01</span><h3>Visi</h3>
+          <p>Terwujudnya mahasiswa Puncak Jaya se-Sumatra yang bersatu, berpendidikan, berintegritas, mandiri, dan mampu memberikan kontribusi positif bagi daerah dan masyarakat.</p>
+        </article>
+        <article class="vision-card">
+          <span class="card-index">02</span><h3>Misi</h3>
+          <ul>
+            <li>Mempererat persaudaraan dan solidaritas mahasiswa.</li>
+            <li>Mendorong peningkatan kualitas pendidikan dan sumber daya manusia.</li>
+            <li>Mengembangkan kepemimpinan, kreativitas, dan kemampuan mahasiswa.</li>
+            <li>Membangun komunikasi dengan pemerintah dan masyarakat.</li>
+            <li>Menghadirkan kegiatan yang bermanfaat dan bertanggung jawab.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="berita">
+    <div class="section-heading">
+      <div><span class="eyebrow">KABAR DAN INFORMASI</span><h2>Berita Terbaru</h2><p class="muted">Informasi kegiatan, pendidikan, organisasi, dan aspirasi.</p></div>
+      <span class="section-number">03 — BERITA</span>
+    </div>
+
+    <div class="news-tools">
+      <input type="search" id="searchInput" placeholder="Cari berita...">
+      <select id="categoryFilter">
+        <option value="Semua">Semua kategori</option>
+        <option value="Organisasi">Organisasi</option>
+        <option value="Pendidikan">Pendidikan</option>
+        <option value="Kegiatan">Kegiatan</option>
+        <option value="Opini">Opini</option>
+        <option value="Pengumuman">Pengumuman</option>
+      </select>
+    </div>
+    <div class="news-grid" id="newsGrid"></div>
+    <p class="empty-state" id="emptyState" hidden>Berita tidak ditemukan.</p>
+  </section>
+
+  <section class="section aspiration-section" id="aspirasi">
+    <div class="container">
+      <div class="section-heading light">
+        <div><span class="eyebrow">SUARA MAHASISWA</span><h2>Aspirasi Mahasiswa</h2><p>Ruang gagasan dan perhatian terhadap pendidikan serta kehidupan mahasiswa.</p></div>
+        <span class="section-number">04 — ASPIRASI</span>
+      </div>
+      <div class="aspiration-grid">
+        <article><span>01</span><h3>Akses Pendidikan</h3><p>Mendorong pemerataan akses pendidikan dan kesempatan belajar bagi generasi muda Puncak Jaya.</p></article>
+        <article><span>02</span><h3>Beasiswa Transparan</h3><p>Mendorong informasi persyaratan, proses, dan penyaluran bantuan pendidikan yang jelas dan tepat sasaran.</p></article>
+        <article><span>03</span><h3>Fasilitas Mahasiswa</h3><p>Memperhatikan kebutuhan tempat tinggal, ruang belajar, internet, dan fasilitas pendukung mahasiswa.</p></article>
+        <article><span>04</span><h3>Dialog dan Kerja Sama</h3><p>Membangun komunikasi terbuka antara mahasiswa, organisasi, pemerintah, dan masyarakat.</p></article>
+      </div>
+      <p class="disclaimer">Materi aspirasi ini merupakan gagasan umum untuk dibahas dan disetujui pengurus KOMPUJA sebelum dinyatakan sebagai sikap resmi organisasi.</p>
+    </div>
+  </section>
+
+  <section class="section container" id="agenda">
+    <div class="section-heading">
+      <div><span class="eyebrow">KALENDER ORGANISASI</span><h2>Agenda dan Program</h2></div>
+      <span class="section-number">05 — KEGIATAN</span>
+    </div>
+    <div class="agenda-grid">
+      <article class="agenda-card"><div class="agenda-icon">01</div><div><span class="tag">PENDIDIKAN</span><h3>Diskusi dan Pengembangan Akademik</h3><p>Forum berbagi pengalaman, pengetahuan, dan informasi pendidikan.</p><small>Jadwal: Menyesuaikan keputusan pengurus</small></div></article>
+      <article class="agenda-card"><div class="agenda-icon">02</div><div><span class="tag">ORGANISASI</span><h3>Konsolidasi Mahasiswa</h3><p>Memperkuat komunikasi dan koordinasi mahasiswa Puncak Jaya se-Sumatra.</p><small>Jadwal: Menyesuaikan keputusan pengurus</small></div></article>
+      <article class="agenda-card"><div class="agenda-icon">03</div><div><span class="tag">SOSIAL</span><h3>Pengabdian dan Kepedulian</h3><p>Mendorong keterlibatan mahasiswa dalam kegiatan sosial dan kemasyarakatan.</p><small>Jadwal: Menyesuaikan keputusan pengurus</small></div></article>
+    </div>
+  </section>
+
+  <section class="section gallery-section" id="galeri">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="eyebrow">DOKUMENTASI</span><h2>Galeri KOMPUJA</h2><p class="muted">Tempat menampilkan foto kegiatan resmi organisasi.</p></div>
+        <span class="section-number">06 — GALERI</span>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-one"><span>FOTO KEGIATAN 01</span></div>
+        <div class="gallery-item gallery-two"><span>FOTO KEGIATAN 02</span></div>
+        <div class="gallery-item gallery-three"><span>FOTO KEGIATAN 03</span></div>
+      </div>
+      <p class="muted small-note">Ganti gambar contoh dengan foto kegiatan KOMPUJA yang benar dan sudah mendapat izin publikasi.</p>
+    </div>
+  </section>
+
+  <section class="section container" id="struktur">
+    <div class="section-heading">
+      <div><span class="eyebrow">KEPENGURUSAN</span><h2>Struktur Organisasi</h2></div>
+      <span class="section-number">07 — PENGURUS</span>
+    </div>
+    <div class="structure-grid">
+      <div><span>Ketua Umum</span><strong>[Nama Ketua]</strong></div>
+      <div><span>Wakil Ketua</span><strong>[Nama Wakil Ketua]</strong></div>
+      <div><span>Sekretaris</span><strong>[Nama Sekretaris]</strong></div>
+      <div><span>Bendahara</span><strong>[Nama Bendahara]</strong></div>
+      <div><span>Koordinator Pendidikan</span><strong>[Nama Koordinator]</strong></div>
+      <div><span>Koordinator Humas</span><strong>[Nama Koordinator]</strong></div>
+      <div><span>Koordinator Minat dan Bakat</span><strong>[Nama Koordinator]</strong></div>
+      <div><span>Koordinator Dokumentasi</span><strong>[Nama Koordinator]</strong></div>
+    </div>
+    <p class="muted small-note">Nama di atas adalah kolom contoh. Isi berdasarkan surat keputusan kepengurusan yang sah.</p>
+  </section>
+
+  <section class="contact-section" id="kontak">
+    <div class="container contact-grid">
+      <div><span class="eyebrow">HUBUNGI KAMI</span><h2>Mari terhubung dengan KOMPUJA.</h2><p>Kirim informasi kegiatan, berita, saran, dan masukan melalui kontak resmi organisasi.</p></div>
+      <div class="contact-card">
+        <p><strong>Organisasi</strong><span>KOMPUJA</span></p>
+        <p><strong>Email</strong><span>[Email resmi KOMPUJA]</span></p>
+        <p><strong>WhatsApp</strong><span>[082299935062]</span></p>
+        <p><strong>Sekretariat</strong><span>[muara bangkaulu]</span></p>
+        <p><strong>Media sosial</strong><span>[fecebokimapacom]</span></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div><strong>KOMPUJA</strong><p>Komunitas Mahasiswa Puncak Jaya se-Sumatra.</p></div>
+    <div><span>Portal informasi dan publikasi organisasi.</span><small>© <span id="year"></span> KOMPUJA. Hak cipta dilindungi.</small><small>Pengembangan website: Ulla Newanak</small></div>
   </div>
-</section>
-
-
-<section id="about">
-  <h2>Tentang Kami</h2>
-  <p>
-    ULLA NEWANAKC merupakan platform fotografi kreatif
-    yang mengabadikan keindahan alam, budaya, manusia,
-    kegiatan masyarakat dan berbagai momen kehidupan.
-  </p>
-</section>
-
-
-<h2>Galeri Foto</h2>
-    <div class="gallery">
-
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800" alt="Pemandangan alam">
-
-        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800" alt="Danau">
-
-        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800" alt="Pegunungan">
-
-        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800" alt="Pemandangan alam">
-
-        <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800" alt="Pantai">
-
-        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800" alt="Hutan">
-
-    </div>
-</section>
-
-<section id="services">
-  <h2>Layanan Fotografi</h2>
-  <div class="services">
-    <article><h3>Fotografi Potret</h3><p>Foto individu, keluarga.</p></article>
-    <article><h3>Dokumentasi Acara</h3><p>Dokumentasi kegiatan dan perayaan.</p></article>
-    <article><h3>Fotografi Alam</h3><p>Foto interaksi alam, budaya dan perjalanan.</p></article>
-    <article><h3>Fotografi Produk</h3><p>Foto produk untuk promosi bisnis.</p></article>
-    <article><h3>Fotografi Produk</h3><p>Foto berbahagia bersama keluarga.</p></article>
-  </div>
-</section>
-
-
-<!-- GALERI -->
-<section class="container" id="galeri">
-    <h2>Galeri Fotografi</h2>
-    <p class="subtitle">Kumpulan karya visual dan inspirasi fotografi.</p>
-
-    <div class="gallery">
-
-        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=800" alt="Model portrait">
-
-        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800" alt="Portrait pria">
-
-        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800" alt="Pegunungan">
-
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800" alt="Alam">
-
-        <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800" alt="Pantai">
-
-        <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800" alt="Galaksi">
-
-    </div>
-</section>
-
-
-<section class="container" id="lokasi">
-    <h2>Lokasi Studio Kami puncak jaya mulia</h2>
-
-    <p class="subtitle">
-        Temukan lokasi Ulla Photo Studio melalui Google Maps.
-    </p>
-
-    <iframe
-        src="https://www.google.com/maps?q=Ketahun,puncakjayamulia,Indonesia&output=embed"
-        width="100%"
-        height="350"
-        style="border:0; border-radius:15px;"
-        allowfullscreen=""
-        loading="lazy">
-    </iframe>
-
-    <p style="text-align:center; margin-top:20px;">
-        <a class="btn"
-        href="https://www.google.com/maps/search/?api=1&query=Ketahun+Bengkulu"
-        target="_blank">
-        Buka Google Maps
-        </a>
-    </p>
-</section>
-
-
-<section class="container" id="whatsapp">
-    <h2>Hubungi ulla newanakc</h2>
-
-    <p class="subtitle">
-        Konsultasi dan pesan layanan fotografi sekarang.
-    </p>
-
-    <div style="text-align:center;">
-        <a href="https://wa.me/62082299935062?text=Halo%20Ulla%20Photo%20Studio,%20saya%20ingin%20memesan%20layanan%20fotografi."
-        target="_blank"
-        class="btn"
-        style="background:#25D366;color:white;">
-            Hubungi WhatsApp
-        </a>
-    </div>
-</section>
-
-
-<footer>
-  <p>© 2026 ULLA NEWANAKC Photography</p>
 </footer>
+
+<!-- LOGIN ADMIN -->
+<div class="modal" id="loginModal">
+  <div class="modal-box">
+    <button class="close-btn" data-close="loginModal">×</button>
+    <div class="modal-logo">K</div>
+    <h2>Admin Portal KOMPUJA</h2>
+    <p>Masuk untuk mengelola berita pada perangkat ini.</p>
+    <form id="loginForm">
+      <label>Username</label>
+      <input id="username" required placeholder="Masukkan username">
+      <label>Password</label>
+      <input id="password" type="password" required placeholder="Masukkan password">
+      <button class="btn primary full" type="submit">Login Admin</button>
+      <p class="form-message" id="loginMessage"></p>
+    </form>
+  </div>
+</div>
+
+<!-- PANEL ADMIN -->
+<div class="modal" id="adminModal">
+  <div class="modal-box admin-box">
+    <button class="close-btn" data-close="adminModal">×</button>
+    <span class="eyebrow">DASHBOARD PENGELOLA</span>
+    <h2>Kelola Portal Berita</h2>
+    <p class="muted">Berita yang ditambahkan tersimpan di browser perangkat ini.</p>
+    <form id="newsForm">
+      <label>Judul berita</label>
+      <input id="newsTitle" required placeholder="Masukkan judul berita">
+      <label>Kategori</label>
+      <select id="newsCategory">
+        <option>Organisasi</option><option>Pendidikan</option><option>Kegiatan</option><option>Opini</option><option>Pengumuman</option>
+      </select>
+      <label>URL gambar (opsional)</label>
+      <input id="newsImage" type="url" placeholder="https://alamat-gambar.jpg">
+      <label>Isi berita</label>
+      <textarea id="newsContent" rows="5" required placeholder="Tuliskan isi berita lengkap..."></textarea>
+      <label>Nama penulis</label>
+      <input id="newsAuthor" required value="Redaksi KOMPUJA">
+      <button class="btn primary full" type="submit">Terbitkan Berita</button>
+      <p class="form-message" id="newsMessage"></p>
+    </form>
+    <button class="btn danger full" id="logoutBtn">Keluar dari Admin</button>
+  </div>
+</div>
 
 <script src="script.js"></script>
 </body>
