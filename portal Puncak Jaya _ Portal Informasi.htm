@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal berita, informasi, pembangunan dan pelayanan masyarakat Kabupaten Puncak Jaya, Papua Tengah.">
+  <title>portal Puncak Jaya | Portal Informasi</title>
+  <link rel="stylesheet" href="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/style_DV9B.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link href="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/css2_DV9B.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a href="#" class="brand">
+      <div class="brand-icon">PJ</div>
+      <div>
+        <strong>WARTA PUNCAK JAYA</strong>
+        <small>Portal Berita dan Informasi</small>
+      </div>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navigation">
+      <a href="#beranda">Beranda</a>
+      <a href="#berita">Berita</a>
+      <a href="#kategori">Kategori</a>
+      <a href="#profil">Profil Daerah</a>
+      <a href="#kontak">Kontak</a>
+      <button class="admin-btn" id="adminOpen">Admin</button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="beranda">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <span class="tag">PORTAL INFORMASI PUNCAK JAYA</span>
+    <h1>Membangun Informasi,<br><span>Menyatukan Puncak Jaya.</span></h1>
+    <p>
+      Sumber informasi berita, pembangunan, pendidikan,
+      kesehatan, budaya, dan perkembangan masyarakat
+      Kabupaten Puncak Jaya.
+    </p>
+    <a href="#berita" class="primary-btn">Jelajahi Berita →</a>
+  </div>
+</section>
+
+<div class="breaking">
+  <div class="container breaking-inner">
+    <strong>INFO TERKINI</strong>
+    <marquee>Selamat datang di Warta Puncak Jaya — Portal berita dan informasi Kabupaten Puncak Jaya.</marquee>
+  </div>
+</div>
+
+<main class="container main-content">
+
+  <section class="section-heading" id="berita">
+    <div>
+      <span class="eyebrow">INFORMASI TERBARU</span>
+      <h2>Berita Puncak Jaya</h2>
+      <p>Informasi dan perkembangan terbaru untuk masyarakat.</p>
+    </div>
+    <div class="search-box">
+      <input type="search" id="searchInput" placeholder="Cari berita...">
+      <button id="searchBtn">⌕</button>
+    </div>
+  </section>
+
+  <div class="categories" id="kategori">
+    <button class="category active" data-category="Semua">Semua</button>
+    <button class="category" data-category="Pemerintahan">Pemerintahan</button>
+    <button class="category" data-category="Pendidikan">Pendidikan</button>
+    <button class="category" data-category="Kesehatan">Kesehatan</button>
+    <button class="category" data-category="Pembangunan">Pembangunan</button>
+    <button class="category" data-category="Budaya">Budaya</button>
+  </div>
+
+  <div class="news-grid" id="newsGrid">
+      <article class="news-card">
+        <img src="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/photo-1516026672322-bc52d61a55d5_DV9B.jpg" alt="Mengenal Kabupaten Puncak Jaya dan Pusat Pemerintahan Mulia" onerror="this.src='https://placehold.co/800x450?text=Warta+Puncak+Jaya'">
+        <div class="news-body">
+          <span class="news-category">Pemerintahan</span>
+          <h3>Mengenal Kabupaten Puncak Jaya dan Pusat Pemerintahan Mulia</h3>
+          <p>Kabupaten Puncak Jaya berada di Provinsi Papua Tengah dengan pusat pemerintahan di Mulia. Artikel pengenalan wilayah ini merupakan konten informatif awal. Data geografis dan administrasi lebih lanjut perlu dilengkapi berdasarkan sumber resmi.</p>
+          <div class="news-meta">
+            Redaksi Warta Puncak Jaya · 19 November 2026
+          </div>
+          <button class="read-btn" onclick="openDetail(1)">
+            Baca Selengkapnya →
+          </button>
+        </div>
+      </article>
+    
+      <article class="news-card">
+        <img src="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/photo-1509062522246-3755977927d7_DV9B.jpg" alt="Pendidikan sebagai Fondasi Masa Depan Generasi Puncak Jaya" onerror="this.src='https://placehold.co/800x450?text=Warta+Puncak+Jaya'">
+        <div class="news-body">
+          <span class="news-category">Pendidikan</span>
+          <h3>Pendidikan sebagai Fondasi Masa Depan Generasi Puncak Jaya</h3>
+          <p>Pendidikan memiliki peran penting dalam meningkatkan kualitas sumber daya manusia. Artikel ini mengangkat pentingnya akses pendidikan, peningkatan kualitas pembelajaran, dan dukungan terhadap generasi muda Puncak Jaya.</p>
+          <div class="news-meta">
+            Redaksi Warta Puncak Jaya · 19 November 2026
+          </div>
+          <button class="read-btn" onclick="openDetail(2)">
+            Baca Selengkapnya →
+          </button>
+        </div>
+      </article>
+    
+      <article class="news-card">
+        <img src="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/photo-1486406146926-c627a92ad1ab_DV9B.jpg" alt="Potensi Pembangunan dan Kemajuan Wilayah Puncak Jaya" onerror="this.src='https://placehold.co/800x450?text=Warta+Puncak+Jaya'">
+        <div class="news-body">
+          <span class="news-category">Pembangunan</span>
+          <h3>Potensi Pembangunan dan Kemajuan Wilayah Puncak Jaya</h3>
+          <p>Pembangunan daerah membutuhkan kerja sama berbagai pihak. Informasi mengenai infrastruktur, fasilitas umum, dan program pembangunan perlu disampaikan berdasarkan data dan dokumentasi yang dapat diverifikasi.</p>
+          <div class="news-meta">
+            Redaksi Warta Puncak Jaya · 19 November 2026
+          </div>
+          <button class="read-btn" onclick="openDetail(3)">
+            Baca Selengkapnya →
+          </button>
+        </div>
+      </article>
+    
+      <article class="news-card">
+        <img src="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/photo-1576091160399-112ba8d25d1d_DV9B.jpg" alt="Pentingnya Pelayanan Kesehatan bagi Masyarakat" onerror="this.src='https://placehold.co/800x450?text=Warta+Puncak+Jaya'">
+        <div class="news-body">
+          <span class="news-category">Kesehatan</span>
+          <h3>Pentingnya Pelayanan Kesehatan bagi Masyarakat</h3>
+          <p>Pelayanan kesehatan merupakan salah satu kebutuhan penting masyarakat. Informasi fasilitas kesehatan, tenaga kesehatan, dan program pelayanan harus disajikan berdasarkan keterangan dari sumber yang berwenang.</p>
+          <div class="news-meta">
+            Redaksi Warta Puncak Jaya · 19 November 2026
+          </div>
+          <button class="read-btn" onclick="openDetail(4)">
+            Baca Selengkapnya →
+          </button>
+        </div>
+      </article>
+    
+      <article class="news-card">
+        <img src="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/photo-1516026672322-bc52d61a55d5_DV9B.jpg" alt="Melestarikan Budaya dan Identitas Masyarakat Papua" onerror="this.src='https://placehold.co/800x450?text=Warta+Puncak+Jaya'">
+        <div class="news-body">
+          <span class="news-category">Budaya</span>
+          <h3>Melestarikan Budaya dan Identitas Masyarakat Papua</h3>
+          <p>Budaya merupakan kekayaan yang perlu dijaga dan diwariskan kepada generasi berikutnya. Dokumentasi tradisi, bahasa, seni, dan kehidupan masyarakat perlu dilakukan dengan menghormati komunitas setempat.</p>
+          <div class="news-meta">
+            Redaksi Warta Puncak Jaya · 19 November 2026
+          </div>
+          <button class="read-btn" onclick="openDetail(5)">
+            Baca Selengkapnya →
+          </button>
+        </div>
+      </article>
+    </div>
+
+  <section class="profile-section" id="profil">
+    <div class="profile-image">
+      <img src="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/photo-1516026672322-bc52d61a55d5_DV9B.jpg" alt="Pemandangan alam Papua">
+    </div>
+    <div class="profile-text">
+      <span class="eyebrow">MENGENAL DAERAH</span>
+      <h2>Kabupaten Puncak Jaya</h2>
+      <p>
+        Kabupaten Puncak Jaya merupakan salah satu kabupaten
+        di Provinsi Papua Tengah. Mulia merupakan pusat
+        pemerintahan kabupaten.
+      </p>
+      <p>
+        Wilayah ini memiliki kekayaan alam, budaya, kehidupan
+        masyarakat, dan potensi pembangunan yang perlu
+        diperkenalkan melalui informasi yang bermanfaat.
+      </p>
+      <div class="profile-details">
+        <div><strong>Provinsi</strong><span>Papua Tengah</span></div>
+        <div><strong>Pusat pemerintahan</strong><span>Mulia</span></div>
+        <div><strong>Fokus informasi</strong><span>Daerah dan masyarakat</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section">
+    <span class="eyebrow">RUANG INFORMASI</span>
+    <h2>Informasi untuk Masyarakat</h2>
+    <div class="info-grid">
+      <article class="info-card">
+        <div class="info-icon">🏛️</div>
+        <h3>Pemerintahan</h3>
+        <p>Informasi kebijakan, pelayanan publik, dan kegiatan pemerintahan.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">🎓</div>
+        <h3>Pendidikan</h3>
+        <p>Informasi pendidikan, sekolah, beasiswa, dan pengembangan SDM.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">🏥</div>
+        <h3>Kesehatan</h3>
+        <p>Informasi layanan kesehatan dan kegiatan masyarakat.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">🏗️</div>
+        <h3>Pembangunan</h3>
+        <p>Informasi infrastruktur dan pembangunan wilayah.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact-section" id="kontak">
+    <div>
+      <span class="eyebrow">HUBUNGI PENGELOLA</span>
+      <h2>Suara Masyarakat Puncak Jaya</h2>
+      <p>Punya informasi, dokumentasi kegiatan, atau berita untuk dibagikan?</p>
+    </div>
+    <a href="mailto:admin@wartapuncakjaya.id" class="primary-btn">Kirim Informasi →</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div>
+      <h3>WARTA PUNCAK JAYA</h3>
+      <p>Portal berita dan informasi Kabupaten Puncak Jaya.</p>
+    </div>
+    <div>
+      <h4>Pengelola Website</h4>
+      <p>ULLA NEWANAK</p>
+      <small>Administrator dan pengembang portal</small>
+    </div>
+  </div>
+  <div class="copyright">
+    © <span id="year">2026</span> Warta Puncak Jaya. Hak cipta dilindungi.
+  </div>
+</footer>
+
+<!-- ADMIN LOGIN -->
+<div class="modal" id="loginModal">
+  <div class="modal-box">
+    <button class="close" data-close="loginModal">×</button>
+    <div class="admin-logo">PJ</div>
+    <h2>Admin Website</h2>
+    <p>Masuk ke dashboard Ulla Newanak</p>
+    <form id="loginForm">
+      <label>Username</label>
+      <input id="username" required="" placeholder="Masukkan username">
+      <label>Password</label>
+      <input id="password" type="password" required="" placeholder="Masukkan password">
+      <button class="primary-btn full" type="submit">Masuk Dashboard</button>
+    </form>
+    <small class="security-note">Demo awal: username admin, password Ulla123!</small>
+  </div>
+</div>
+
+<!-- DASHBOARD ADMIN -->
+<div class="modal" id="dashboardModal">
+  <div class="modal-box dashboard">
+    <button class="close" data-close="dashboardModal">×</button>
+    <span class="eyebrow">PANEL PENGELOLA</span>
+    <h2>Dashboard Admin</h2>
+    <p>Selamat datang, Ulla Newanak.</p>
+
+    <div class="admin-stats">
+      <div><strong id="totalNews">5</strong><span>Total Berita</span></div>
+      <div><strong id="totalViews">5</strong><span>Artikel Lokal</span></div>
+    </div>
+
+    <h3 id="formTitle">Tulis Berita Baru</h3>
+    <form id="newsForm">
+      <input type="hidden" id="editId">
+      <label>Judul berita</label>
+      <input id="newsTitle" required="" placeholder="Judul berita">
+
+      <label>Nama penulis</label>
+      <input id="newsAuthor" required="" value="Ulla Newanak">
+
+      <label>Kategori</label>
+      <select id="newsCategory">
+        <option selected="selected">Pemerintahan</option>
+        <option>Pendidikan</option>
+        <option>Kesehatan</option>
+        <option>Pembangunan</option>
+        <option>Budaya</option>
+      </select>
+
+      <label>Link foto berita</label>
+      <input id="newsImage" placeholder="https://alamat-foto.jpg">
+
+      <label>Isi berita</label>
+      <textarea id="newsContent" rows="6" required="" placeholder="Tuliskan isi berita lengkap..."></textarea>
+
+      <button type="submit" class="primary-btn full">Simpan Berita</button>
+      <button type="button" id="cancelEdit" class="secondary-btn full hidden">Batalkan Edit</button>
+    </form>
+
+    <h3>Kelola Berita</h3>
+    <div id="adminNewsList"></div>
+    <button id="logoutBtn" class="logout-btn">Keluar Admin</button>
+  </div>
+</div>
+
+<!-- DETAIL BERITA -->
+<div class="modal" id="detailModal">
+  <div class="modal-box detail-box">
+    <button class="close" data-close="detailModal">×</button>
+    <div id="detailContent"></div>
+  </div>
+</div>
+
+<script src="portal%20Puncak%20Jaya%20_%20Portal%20Informasi_files/script_DV9B.js"></script>
+
+
+</body></html>
